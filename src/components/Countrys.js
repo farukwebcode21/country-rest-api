@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Countrys = (props) => {
-    console.log(props);
+    // console.log(props);
     const {name, capital,population } = props.country;
     return (
         <div>
